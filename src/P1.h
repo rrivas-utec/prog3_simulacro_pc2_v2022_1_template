@@ -1,0 +1,8 @@
+//
+// Created by rudri on 10/11/2020.
+//
+
+#ifndef PROG3_SIMULACRO_PC2_V2022_1_P1_H
+#define PROG3_SIMULACRO_PC2_V2022_1_P1_H
+
+#endif //PROG3_SIMULACRO_PC2_V2022_1_P1_H
