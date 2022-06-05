@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.10.2)
 project(prog3_simulacro_pc2_v2022_1)
 
-set( CMAKE_CXX_FLAGS "-m64 -Wa,-mbig-obj" )
+if (MINGW)
+    set( CMAKE_CXX_FLAGS "-m64 -Wa,-mbig-obj" )
+endif()
 
 set(CMAKE_CXX_STANDARD 20)
 if(UNIX AND NOT APPLE)
